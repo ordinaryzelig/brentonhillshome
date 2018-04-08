@@ -1,97 +1,20 @@
-// Google map
-var markers = [{ // Map Coordination 
-    "lat": '40.704914',
-    "lng": '-74.016221'
-}];
-
-
 window.onload = function() {
-    var mapOptions = {
-        center: new google.maps.LatLng(markers[0].lat, markers[0].lng),
-        zoom: 15,
-        flat: false,
-        scrollwheel: false,
-        panControl: false,
-        zoomControl: true,
-        streetViewControl: false,
-        mapTypeControl: false,
+    var marker = new google.maps.Marker({
+        position: {
+            "lat": 35.6291425,
+            "lng": -97.5243435
+        },
+        title: "516 NW 155th Cir",
+        animation: google.maps.Animation.DROP,
+    });
 
-        // Google maps style	
-        styles: [
-    {
-        "featureType": "all",
-        "elementType": "all",
-        "stylers": [
-            {
-                "visibility": "simplified"
-            }
-        ]
-    },
-    {
-        "featureType": "all",
-        "elementType": "labels.text",
-        "stylers": [
-            {
-                "visibility": "simplified"
-            }
-        ]
-    },
-    {
-        "featureType": "administrative",
-        "elementType": "all",
-        "stylers": [
-            {
-                "visibility": "off"
-            }
-        ]
-    },
-    {
-        "featureType": "landscape",
-        "elementType": "all",
-        "stylers": [
-            {
-                "visibility": "simplified"
-            }
-        ]
-    },
-    {
-        "featureType": "poi",
-        "elementType": "all",
-        "stylers": [
-            {
-                "visibility": "off"
-            }
-        ]
-    },
-    {
-        "featureType": "poi.park",
-        "elementType": "all",
-        "stylers": [
-            {
-                "visibility": "on"
-            }
-        ]
-    },
-    {
-        "featureType": "road",
-        "elementType": "all",
-        "stylers": [
-            {
-                "visibility": "on"
-            }
-        ]
-    },
-    {
-        "featureType": "transit",
-        "elementType": "all",
-        "stylers": [
-            {
-                "visibility": "off"
-            }
-        ]
-    }
-]
-    };
-    var infoWindow = new google.maps.InfoWindow();
-    var map = new google.maps.Map(document.getElementById("google-map"), mapOptions);
+    var map = new google.maps.Map(
+        document.getElementById("google-map"),
+        {
+            center: marker.position,
+            zoom: 15
+        }
+    );
+
+    marker.setMap(map);
 };

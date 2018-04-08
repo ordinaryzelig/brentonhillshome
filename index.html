@@ -909,95 +909,22 @@
 
         <!-- Contact Begin -->
 
-        <div class="contact">
-            <div class="container padding-vertical-100 text-left">
-                <div class="row">
-                    <div class="col-md-7">
-                        <h1 class="small">Contact us</h1>
-                        <span class="big-number margin-right-30">03.</span>
-                        <p class="big-number-desc margin-top-15">Nullam ipsum sapien, pulvinar massa quis, mollis euismod urna. Quisque ultricies metus at nibh tincidunt pretium. Aliquam dui m felis euismod convallis. Integer facilisis venenatis erat, non consequat lectus cursus. Donec vulputa vehicula ornare. Integer venenatis fermentum nisl sodales. Sed tristique feugiat augue, bibendum risus vestibulum a.</p>
-                        <div class="contact-info margin-top-20">
-                            <ul>
-                                <li>
-                                    <i class="flaticon-signs"></i>
-                                    <h6>Our Location</h6>
-                                    <p>New York, Manhattan</p>
-                                </li>
-
-                                <li class="phone-number">
-                                    <i class="flaticon-phone-call"></i>
-                                    <h6>Phone Number</h6>
-                                    <p>+01 234 567 890</p>
-                                </li>
-                                <li>
-                                    <i class="flaticon-envelope"></i>
-                                    <h6>E-Mail Address</h6>
-                                    <p>info@architech-template.com</p>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- /contact-info -->
-
-                        <div class="contact-form margin-left-15">
-                            <div class="col-md-12 col-sm-offset-1 margin-top-40">
-                                <form action="contact.php" method="POST" id="contact-form">
-                                    <div class="row">
-                                        <div class="col-md-5 col-sm-5">
-                                            <div class="form-group text-left">
-                                                <label for="contact-name">Name</label>
-                                                <input type="text" name="name" id="contact-name" class="form-control" placeholder="Enter your name here" required>
-                                            </div>
-                                            <!-- /form-group -->
-
-                                            <div class="form-group margin-top-20 text-left">
-                                                <label for="contact-email">Email Address</label>
-                                                <input type="email" name="email" id="contact-email" class="form-control" placeholder="Enter your email address here" required>
-                                            </div>
-                                            <!-- /form-group -->
-
-                                            <div class="form-group margin-top-20 text-left">
-                                                <label for="contact-number">Phone Number</label>
-                                                <input type="tel" name="usrtel" id="contact-number" class="form-control" placeholder="Enter your phone number here" required>
-                                            </div>
-                                            <!-- /form-group -->
-                                            <button type="submit" class="btn-blue margin-top-5">submit</button>
-                                            <!-- /button -->
-                                        </div>
-                                        <!-- /column -->
-
-                                        <div class="col-md-5 col-sm-5" style="padding-right: 0;">
-                                            <div class="form-group text-left">
-                                                <label for="contact-message">Message</label>
-                                                <textarea name="message" id="contact-message" class="form-control" placeholder="Enter your message here" required></textarea>
-                                            </div>
-                                            <!-- /form-group -->
-                                        </div>
-                                        <!-- /column -->
-                                    </div>
-                                    <!-- /row -->
-                                    <div id="ajax-message" class="margin-top-30"></div>
-                                    <!-- /ajax-message -->
-                                </form>
-                                <!-- /form -->
-                            </div>
-                            <!-- /column -->
-                        </div>
-                        <!-- /contact-form -->
+        <div id="location" class="contact contact-1 padding-top-50 padding-bottom-100">
+            <div class="container">
+                <div class="text-center">
+                    <h1 class="small">Location</h1>
+                </div>
+                <!-- /text-center -->
+                <div class="row margin-top-40">
+                    <div class="col-md-12">
+                        <div id="google-map" style="height: 615px;"></div>
                     </div>
                     <!-- /column -->
-
-                    <div id="location" class="col-md-5 img-column">
-                        <div class="contact-map">
-                            <div id="google-map"></div>
-                            </div>
-                            <!-- /rt-link -->
-                        </div>
-                        <!-- /contact-map -->
-                    </div>
-                    <!-- /img-column -->
                 </div>
                 <!-- /row -->
             </div>
+            <!-- /container -->
+        </div>
             <!-- /container -->
         </div>
 
