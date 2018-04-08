@@ -1,11 +1,6 @@
 jQuery(function($) {
     "use strict";
 
-    //Preloader
-    $(window).on('load', function() {
-        $('body').delay(500).addClass('loaded').find('.page-loader').fadeOut(1000);
-    });
-
     //Back To Top
     $("#back-top").hide();
 
