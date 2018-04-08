@@ -13,7 +13,7 @@ jQuery(function($) {
         }
     });
 
-    $('#back-top').on('click', function(e) {
+    $('#back-top, .navbar-brand').on('click', function(e) {
         e.preventDefault();
         $('html,body').animate({
             scrollTop: 0
