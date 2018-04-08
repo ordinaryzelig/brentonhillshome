@@ -2,6 +2,13 @@
   margin: 0 !important;
 }
 
+.navbar-brand {
+  font-family: Montserrat, sans-serif;
+  font-size: 28px;
+  line-height: 1em;
+  color: black;
+}
+
 .feature-list li {
   list-style: square;
   margin-left: 60px;
