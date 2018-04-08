@@ -2264,18 +2264,13 @@ p {
   ========================================
 */
 
-.about-info {
-    background: url(http://placehold.it/1920x400);
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-}
 .facts-counter {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.2);
     border-radius: 50%;
     width: 140px;
     height: 140px;
     padding-top: 10px;
+    color: white;
 }
 .facts-container {
     border: 5px solid rgba(255, 255, 255, 0.1);
