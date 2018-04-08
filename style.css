@@ -1673,9 +1673,6 @@ p {
     -o-transition: all .6s;
     transition: all .6s;
 }
-.header-top-bar {
-    margin: 40px 0 0 0;
-}
 .header-top-bar-2 {
     margin: 47px 0 0 0;
 }

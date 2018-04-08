@@ -1,3 +1,7 @@
+.header-top-bar {
+  margin: 0 !important;
+}
+
 .feature-list li {
   list-style: square;
   margin-left: 60px;
