@@ -1,0 +1,11 @@
+.feature-list li {
+  list-style: square;
+  margin-left: 80px;
+  margin-top: 20px;
+  line-height: 1.5em;
+}
+
+.feature-list strong {
+  font-weight: bold;
+  color: #26a8e4;
+}
