@@ -19,3 +19,9 @@
 .feature-list strong {
   font-weight: bold;
 }
+
+/* To compensate for header when scrolling. */
+.scroll-anchor {
+  position: relative;
+  top: -60px;
+}
